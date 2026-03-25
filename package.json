@@ -1,0 +1,22 @@
+{
+  "name": "web2rss",
+  "version": "1.0.0",
+  "description": "将任何网页转化为RSS订阅源的工具",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^13.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "rss": "^1.2.2",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {},
+  "keywords": ["rss", "atom", "feed", "web2rss"],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/rss",
+      "dest": "pages/api/rss.js"
+    },
+    {
+      "src": "/api/atom",
+      "dest": "pages/api/atom.js"
+    },
+    {
+      "src": "/",
+      "dest": "pages/index.js"
+    }
+  ]
+}
